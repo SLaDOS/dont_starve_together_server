@@ -49,4 +49,9 @@ docker-compose down
 > 🛑 Caution! Stopping the containers **DOES NOT SAVE THE GAME**, it simply gracefully shutdown the server processes and kills the containers.
 
 ## 备忘录
+
 sudo chmod -R 777 *
+
+eval $(ssh-agent -s)
+
+ssh-add ~/.ssh/id_ed25519
