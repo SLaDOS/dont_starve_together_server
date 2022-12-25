@@ -47,3 +47,7 @@ docker-compose down
 ```
 
 > 🛑 Caution! Stopping the containers **DOES NOT SAVE THE GAME**, it simply gracefully shutdown the server processes and kills the containers.
+
+## 备忘录
+
+sudo chmod -R a+r *
