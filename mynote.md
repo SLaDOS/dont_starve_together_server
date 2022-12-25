@@ -1,5 +1,7 @@
 ## [Console/Don't Starve Together Commands](https://dontstarve.fandom.com/wiki/Console/Don%27t_Starve_Together_Commands#Network/Server_Commands)
 
+## [Creating_the_Map](https://dontstarve.fandom.com/wiki/Guides/Don%E2%80%99t_Starve_Together_Dedicated_Servers#Creating_the_Map)
+
 ## 运行步骤
 
 -  clone or pull
