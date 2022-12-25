@@ -30,7 +30,7 @@
 To **save the game** right before shutdown, attach to the container and execute `c_shutdown()`:
 
 ```
-docker attach dst_master --sig-proxy=false
+docker attach dst_master
 c_shutdown()
 ```
 
