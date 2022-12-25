@@ -13,12 +13,12 @@ return {
   --   },
   --   enabled=true
   -- },
-["workshop-378160973"]=={ configuration_options={ }, enabled=true },
-["workshop-501385076"]=={ configuration_options={ }, enabled=true },
-["workshop-462434129"]=={ configuration_options={ }, enabled=true },
-["workshop-1207269058"]=={ configuration_options={ }, enabled=true },
-["workshop-818624729"]=={ configuration_options={ }, enabled=true },
-["workshop-347079953"]=={ configuration_options={ }, enabled=true },
-["workshop-375850593"]=={ configuration_options={ }, enabled=true }
+["workshop-378160973"]={ configuration_options={ }, enabled=true },
+["workshop-501385076"]={ configuration_options={ }, enabled=true },
+["workshop-462434129"]={ configuration_options={ }, enabled=true },
+["workshop-1207269058"]={ configuration_options={ }, enabled=true },
+["workshop-818624729"]={ configuration_options={ }, enabled=true },
+["workshop-347079953"]={ configuration_options={ }, enabled=true },
+["workshop-375850593"]={ configuration_options={ }, enabled=true }
   
 }
