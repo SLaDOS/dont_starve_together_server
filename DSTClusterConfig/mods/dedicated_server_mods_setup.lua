@@ -9,3 +9,11 @@
 	--The Workshop id can be found at the end of the url to the collection's Workshop page.
 	--Example: http://steamcommunity.com/sharedfiles/filedetails/?id=379114180
 	--ServerModCollectionSetup("379114180")
+ServerModSetup("id=378160973")  --Global Positions
+ServerModSetup("id=501385076") 	--quick pick
+ServerModSetup("id=462434129") 	--restart
+ServerModSetup("id=1207269058") --simple health bar
+ServerModSetup("id=818624729") 	--trainer red
+ServerModSetup("id=347079953") 	--food values
+ServerModSetup("id=375850593") 	--equip slots
+ServerModSetup("id=458940297") 	--food values
