@@ -20,7 +20,9 @@
 5. （可选）  [dst_master exited with code 6 ](https://github.com/mathielo/dst-dedicated-server/issues/19#top)  #19
 
   ```
-  docker-compose up -d && docker exec -u root -it dst_master bash -c "chown -Rv dst:dst /home/dst/.klei/DoNotStarveTogether"
+  docker exec -u root -it dst_master bash -c "chown -Rv dst:dst /home/dst/.klei/DoNotStarveTogether && chown -Rv dst:dst /home/dst/server_dst/mods"
+  or
+  docker-compose up -d && docker exec -u root -it dst_master bash -c "chown -Rv dst:dst /home/dst/.klei/DoNotStarveTogether && chown -Rv dst:dst /home/dst/server_dst/mods"
   ```
 
 6. `docker-compose up` 可选`docker-compose up -d`
@@ -47,6 +49,14 @@ docker-compose down
 ```
 
 > 🛑 Caution! Stopping the containers **DOES NOT SAVE THE GAME**, it simply gracefully shutdown the server processes and kills the containers.
+
+## mod
+
+每次pull完，要
+
+sudo chmod -R 777 *
+
+否则没权限读取mod列表
 
 ## 备忘录
 
