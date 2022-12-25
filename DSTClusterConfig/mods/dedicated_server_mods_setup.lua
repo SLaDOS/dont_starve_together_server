@@ -16,4 +16,4 @@ ServerModSetup("1207269058") --simple health bar
 ServerModSetup("818624729") 	--trainer red
 ServerModSetup("347079953") 	--food values
 ServerModSetup("375850593") 	--equip slots
-ServerModSetup("458940297") 	--food values
+--ServerModSetup("458940297") 	--food values
