@@ -48,6 +48,14 @@ docker-compose down
 
 > 🛑 Caution! Stopping the containers **DOES NOT SAVE THE GAME**, it simply gracefully shutdown the server processes and kills the containers.
 
+## mod
+
+每次pull完，要
+
+sudo chmod -R 777 *
+
+否则没权限读取mod列表
+
 ## 备忘录
 
 sudo chmod -R 777 *
