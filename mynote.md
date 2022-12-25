@@ -2,13 +2,15 @@
 
 ## 运行步骤
 
-1. clone or pull
+-  clone or pull
 
-2. 切换到目录下
+-  切换到目录下
 
-3. （可选）`sudo service docker start`
+-  （可选）`sudo chmod -R 777 *`
 
-4. （可选）获取sudo权限
+-  （可选）`sudo service docker start`
+
+-  （可选）获取sudo权限
 
    ```bash
    sudo groupadd docker
@@ -17,12 +19,10 @@
    docker run hello-world
    ```
 
-5. （可选）  [dst_master exited with code 6 ](https://github.com/mathielo/dst-dedicated-server/issues/19#top)  #19
+-  （可选）  [dst_master exited with code 6 ](https://github.com/mathielo/dst-dedicated-server/issues/19#top)  #19
 
   ```
-  docker exec -u root -it dst_master bash -c "chown -Rv dst:dst /home/dst/.klei/DoNotStarveTogether && chown -Rv dst:dst /home/dst/server_dst/mods"
-  or
-  docker-compose up -d && docker exec -u root -it dst_master bash -c "chown -Rv dst:dst /home/dst/.klei/DoNotStarveTogether && chown -Rv dst:dst /home/dst/server_dst/mods"
+  docker-compose up [-d] && docker exec -u root -it dst_master bash -c "chown -Rv dst:dst /home/dst/.klei/DoNotStarveTogether && chown -Rv dst:dst /home/dst/server_dst/mods"
   ```
 
 6. `docker-compose up` 可选`docker-compose up -d`
