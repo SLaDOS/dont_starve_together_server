@@ -20,9 +20,7 @@
 5. （可选）  [dst_master exited with code 6 ](https://github.com/mathielo/dst-dedicated-server/issues/19#top)  #19
 
   ```
-  docker exec -u root -it dst_master bash -c "chown -Rv dst:dst /home/dst/.klei/DoNotStarveTogether && chown -Rv dst:dst /home/dst/server_dst/mods"
-  or
-  docker-compose up -d && docker exec -u root -it dst_master bash -c "chown -Rv dst:dst /home/dst/.klei/DoNotStarveTogether && chown -Rv dst:dst /home/dst/server_dst/mods"
+  docker-compose up [-d] && docker exec -u root -it dst_master bash -c "chown -Rv dst:dst /home/dst/.klei/DoNotStarveTogether && chown -Rv dst:dst /home/dst/server_dst/mods"
   ```
 
 6. `docker-compose up` 可选`docker-compose up -d`
