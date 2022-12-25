@@ -9,7 +9,9 @@
    ```
    docker-compose up -d && docker exec -u root -it dst_master bash -c "chown -Rv dst:dst /home/dst/.klei/DoNotStarveTogether"
 
-4. `docker-compose up` 可选`-d`
+4. `docker-compose up` 
+   可选
+   `docker-compose up -d`
 
 ## 关服步骤
 
