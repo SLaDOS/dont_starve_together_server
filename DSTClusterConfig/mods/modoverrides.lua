@@ -20,6 +20,5 @@ return {
 ["workshop-818624729"]=={ configuration_options={ }, enabled=true },
 ["workshop-347079953"]=={ configuration_options={ }, enabled=true },
 ["workshop-375850593"]=={ configuration_options={ }, enabled=true },
-["workshop-458940297"]=={ configuration_options={ }, enabled=true },
   
 }
